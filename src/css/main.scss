@@ -1,0 +1,27 @@
+// SASS allows you to comment a single line with //
+//Override the default theme colors for bootstrap:
+// Courtesy of themestr at: https://themestr.app/theme
+
+
+
+// if you aren't using Bootstrap grids, you can set this variable to false:
+$enable-grid-classes:true;
+
+// override the theme colors
+// $primary:#2f3c48; 
+// $secondary:#6f7f8c;
+// $success:#3e4d59;
+// $danger:#cc330d;
+// $info:#5c8f94;
+// $warning:#6e9fa5;
+// $light:#eceeec;
+// $dark:#1e2b37;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+// SASS allows you to create variables, they start with a dollar sign
+//@import "../../node_modules/bootstrap/scss/bootstrap"
